@@ -34,5 +34,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./relayer
+          file: ./relayer/Dockerfile
           push: true
           tags: mangatasolutions/mangata-bridge:latest
