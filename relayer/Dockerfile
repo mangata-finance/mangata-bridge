@@ -20,6 +20,5 @@ USER 1001
 # RUN cat /tmp/relay-config.toml
 
 ENV ARTEMIS_SUBSTRATE_KEY=//Relay
-ENV ARTEMIS_ETHEREUM_KEY=fd0b9d0606815736993eb03364d6797cca4bc451c9e595a451a2767b1ff627be
 
 ENTRYPOINT ["/usr/local/bin/artemis-relay"]
